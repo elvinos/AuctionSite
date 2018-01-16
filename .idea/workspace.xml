@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6562db59-4f3f-4f18-8aa8-78133a60eb31" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/trellis/group_vars/production/wordpress_sites.yml" afterPath="$PROJECT_DIR$/trellis/group_vars/production/wordpress_sites.yml" />
+      <change beforePath="$PROJECT_DIR$/trellis/group_vars/all/users.yml" afterPath="$PROJECT_DIR$/trellis/group_vars/all/users.yml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,41 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trellis/group_vars/all/main.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trellis/group_vars/production/main.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="wordpress_sites.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trellis/group_vars/development/wordpress_sites.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="208">
-              <caret line="13" column="27" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="13" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="development" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trellis/hosts/development">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="13" column="27" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="13" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -78,11 +48,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wordpress_sites.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="wordpress_sites.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trellis/group_vars/production/wordpress_sites.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="304">
-              <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+              <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vault.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trellis/group_vars/production/vault.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/trellis/group_vars/all/users.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="16">
+              <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -92,7 +82,7 @@
         <entry file="file://$PROJECT_DIR$/trellis/server.retry">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="16">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -108,21 +98,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site/composer.json">
+      <file leaf-file-name="deploy.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trellis/deploy.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vault.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trellis/group_vars/development/vault.yml">
+      <file leaf-file-name="dev.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trellis/dev.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="6" column="36" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="36" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -151,6 +151,7 @@
         <option value="$PROJECT_DIR$/trellis/group_vars/production/vault.yml" />
         <option value="$PROJECT_DIR$/trellis/hosts/production" />
         <option value="$PROJECT_DIR$/trellis/group_vars/production/wordpress_sites.yml" />
+        <option value="$PROJECT_DIR$/trellis/group_vars/all/users.yml" />
       </list>
     </option>
   </component>
@@ -219,6 +220,13 @@
               <item name="AuctionSite" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="trellis" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="group_vars" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="all" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="AuctionSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AuctionSite" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="trellis" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="group_vars" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="development" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -278,12 +286,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1516113681818</updated>
-      <workItem from="1516113683134" duration="9957000" />
+      <workItem from="1516113683134" duration="10377000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9957000" />
+    <option name="totallyTimeSpent" value="10377000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -329,22 +337,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/site/web/public/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/web/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/site/web/Core/Error.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-372">
@@ -639,26 +631,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trellis/group_vars/all/users.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/trellis/group_vars/all/vault.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trellis/group_vars/production/vault.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -703,10 +679,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/trellis/hosts/production">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trellis/group_vars/development/wordpress_sites.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="27" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="13" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trellis/dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/trellis/server.retry">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -719,18 +719,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trellis/hosts/production">
+    <entry file="file://$PROJECT_DIR$/trellis/deploy.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trellis/group_vars/development/wordpress_sites.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="13" column="27" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="13" selection-end-column="27" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -738,7 +730,23 @@
     <entry file="file://$PROJECT_DIR$/trellis/group_vars/production/wordpress_sites.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
-          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trellis/group_vars/production/vault.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trellis/group_vars/all/users.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
           <folding />
         </state>
       </provider>
