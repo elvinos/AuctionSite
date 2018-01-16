@@ -1,0 +1,9 @@
+{
+  "name": "thisolivier/statictest",
+  "type": "project",
+  "config": {
+    "preferred-install": "dist"
+  },
+  "require": {
+  }
+}
