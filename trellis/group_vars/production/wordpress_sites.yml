@@ -9,12 +9,12 @@ wordpress_sites:
         redirects:
           - www.auction.uksouth.cloudapp.azure.com
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
-    repo: git@github.com:elvinos/AuctionSite.git # replace with your Git repo URL
-    repo_subtree_path: site # relative path to your Bedrock/WP directory in your repo
-    branch: master
     site_install: false
     db_create: false
     ensure_wordpress: false
+    repo: git@github.com:elvinos/AuctionSite.git # replace with your Git repo URL
+    repo_subtree_path: site # relative path to your Bedrock/WP directory in your repo
+    branch: master
     multisite:
       enabled: false
     ssl:
