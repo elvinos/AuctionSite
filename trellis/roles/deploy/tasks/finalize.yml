@@ -15,10 +15,10 @@
 
 - include_tasks: "{{ include_path }}"
   with_items: "{{ deploy_finalize_after | default([]) }}"
+  when: project.ensure_wordpress | default(true)
   loop_control:
     loop_var: include_path
   tags: deploy-finalize-after
-  when: project.ensure_wordpress | default(true)
 
 - debug:
     msg: "{{ project_version }}@{{ git_clone.after | truncate(7, True, '') }} deployed as release {{ deploy_helper.new_release }}"
