@@ -3,7 +3,7 @@
 # Define accompanying passwords/secrets in group_vars/development/vault.yml
 
 wordpress_sites:
-  example.com:
+  auction.uksouth.cloudapp.azure.com:
     site_hosts:
       - canonical: example.test
         redirects:
