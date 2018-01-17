@@ -25,7 +25,6 @@
 
 	<?php
 	$servername   = "127.0.0.1";
-	$database = "database";
 	$username = "root";
 	$password = "devpw";
 
