@@ -3,10 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <title><?php pageTitle(); ?> | <?php siteName(); ?></title>
-    <style type="text/css">
-        .wrap { max-width: 720px; margin: 50px auto; padding: 30px 40px; text-align: center; box-shadow: 0 4px 25px -4px #9da5ab; }
-        article { text-align: left; padding: 40px; line-height: 150%; }
-    </style>
+    <link rel="stylesheet" type="text/css" href="assets/main.css">
 </head>
 <body>
 <div class="wrap">
@@ -26,8 +23,17 @@
 	<?php
 	$servername   = "127.0.0.1";
 	$username = "root";
-	$password = "devpw";
+	if ($_SERVER['HTTP_HOST'] == 'localhost' || $_SERVER['HTTP_HOST'] == 'example.test') // or any other host
+	{
+		// development
+		$password = "devpw";
+	}
 
+	else
+	{
+		// production
+		$password = "productionpw";
+	}
 	// Create connection
 	$conn = new mysqli($servername, $username, $password);
 	// Check connection
